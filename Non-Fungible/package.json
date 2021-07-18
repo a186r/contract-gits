@@ -1,5 +1,11 @@
 {
   "devDependencies": {
-    "hardhat": "^2.4.3"
+    "hardhat": "^2.4.3",
+    "ethers": "^5.4.1",
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1"
+  },
+  "dependencies": {
+    "@0xcert/ethereum-erc721": "^2.0.0"
   }
 }

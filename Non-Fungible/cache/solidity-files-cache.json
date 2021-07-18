@@ -1,0 +1,393 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/a186r/dev/solc/contract-gits/Non-Fungible/contracts/BitcoinNFT.sol": {
+      "lastModificationDate": 1626590470102,
+      "contentHash": "2ea73b9e42c97003245b343e086ee618",
+      "sourceName": "contracts/BitcoinNFT.sol",
+      "solcConfig": {
+        "version": "0.5.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@0xcert/ethereum-erc721/src/contracts/tokens/nf-token-metadata.sol",
+        "@0xcert/ethereum-erc721/src/contracts/ownership/ownable.sol"
+      ],
+      "versionPragmas": [
+        "0.5.6"
+      ],
+      "artifacts": [
+        "BitcoinNFT"
+      ]
+    },
+    "/home/a186r/dev/solc/contract-gits/Non-Fungible/node_modules/@0xcert/ethereum-erc721/src/contracts/tokens/nf-token-metadata.sol": {
+      "lastModificationDate": 1626589090214,
+      "contentHash": "cdbc9a5c1083ee4bfcddfcf7d674cec6",
+      "sourceName": "@0xcert/ethereum-erc721/src/contracts/tokens/nf-token-metadata.sol",
+      "solcConfig": {
+        "version": "0.5.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./nf-token.sol",
+        "./erc721-metadata.sol"
+      ],
+      "versionPragmas": [
+        "0.5.6"
+      ],
+      "artifacts": [
+        "NFTokenMetadata"
+      ]
+    },
+    "/home/a186r/dev/solc/contract-gits/Non-Fungible/node_modules/@0xcert/ethereum-erc721/src/contracts/ownership/ownable.sol": {
+      "lastModificationDate": 1626589090214,
+      "contentHash": "7f48e7c8c3f07f24895dd10ad46ee5f8",
+      "sourceName": "@0xcert/ethereum-erc721/src/contracts/ownership/ownable.sol",
+      "solcConfig": {
+        "version": "0.5.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.5.6"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/home/a186r/dev/solc/contract-gits/Non-Fungible/node_modules/@0xcert/ethereum-erc721/src/contracts/tokens/nf-token.sol": {
+      "lastModificationDate": 1626589090214,
+      "contentHash": "1f741f96380b5dc06cf8f258d07e8602",
+      "sourceName": "@0xcert/ethereum-erc721/src/contracts/tokens/nf-token.sol",
+      "solcConfig": {
+        "version": "0.5.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./erc721.sol",
+        "./erc721-token-receiver.sol",
+        "../math/safe-math.sol",
+        "../utils/supports-interface.sol",
+        "../utils/address-utils.sol"
+      ],
+      "versionPragmas": [
+        "0.5.6"
+      ],
+      "artifacts": [
+        "NFToken"
+      ]
+    },
+    "/home/a186r/dev/solc/contract-gits/Non-Fungible/node_modules/@0xcert/ethereum-erc721/src/contracts/tokens/erc721-metadata.sol": {
+      "lastModificationDate": 1626589090214,
+      "contentHash": "9a6e7875b3b26352b1247b3701f9b301",
+      "sourceName": "@0xcert/ethereum-erc721/src/contracts/tokens/erc721-metadata.sol",
+      "solcConfig": {
+        "version": "0.5.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.5.6"
+      ],
+      "artifacts": [
+        "ERC721Metadata"
+      ]
+    },
+    "/home/a186r/dev/solc/contract-gits/Non-Fungible/node_modules/@0xcert/ethereum-erc721/src/contracts/tokens/erc721.sol": {
+      "lastModificationDate": 1626589090214,
+      "contentHash": "a48bcbeb084b0ade03ac97b1bc9e7851",
+      "sourceName": "@0xcert/ethereum-erc721/src/contracts/tokens/erc721.sol",
+      "solcConfig": {
+        "version": "0.5.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.5.6"
+      ],
+      "artifacts": [
+        "ERC721"
+      ]
+    },
+    "/home/a186r/dev/solc/contract-gits/Non-Fungible/node_modules/@0xcert/ethereum-erc721/src/contracts/tokens/erc721-token-receiver.sol": {
+      "lastModificationDate": 1626589090214,
+      "contentHash": "b60862251d3cd4461ee1818bdf5c8208",
+      "sourceName": "@0xcert/ethereum-erc721/src/contracts/tokens/erc721-token-receiver.sol",
+      "solcConfig": {
+        "version": "0.5.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.5.6"
+      ],
+      "artifacts": [
+        "ERC721TokenReceiver"
+      ]
+    },
+    "/home/a186r/dev/solc/contract-gits/Non-Fungible/node_modules/@0xcert/ethereum-erc721/src/contracts/math/safe-math.sol": {
+      "lastModificationDate": 1626589090211,
+      "contentHash": "210e332580c99c26b7cae1631b14805e",
+      "sourceName": "@0xcert/ethereum-erc721/src/contracts/math/safe-math.sol",
+      "solcConfig": {
+        "version": "0.5.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.5.6"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/home/a186r/dev/solc/contract-gits/Non-Fungible/node_modules/@0xcert/ethereum-erc721/src/contracts/utils/supports-interface.sol": {
+      "lastModificationDate": 1626589090214,
+      "contentHash": "24ee45e9cb9e041ef3dd2325a1c7a62f",
+      "sourceName": "@0xcert/ethereum-erc721/src/contracts/utils/supports-interface.sol",
+      "solcConfig": {
+        "version": "0.5.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./erc165.sol"
+      ],
+      "versionPragmas": [
+        "0.5.6"
+      ],
+      "artifacts": [
+        "SupportsInterface"
+      ]
+    },
+    "/home/a186r/dev/solc/contract-gits/Non-Fungible/node_modules/@0xcert/ethereum-erc721/src/contracts/utils/address-utils.sol": {
+      "lastModificationDate": 1626589090214,
+      "contentHash": "718efe0975697c08514f063fada0e0b5",
+      "sourceName": "@0xcert/ethereum-erc721/src/contracts/utils/address-utils.sol",
+      "solcConfig": {
+        "version": "0.5.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.5.6"
+      ],
+      "artifacts": [
+        "AddressUtils"
+      ]
+    },
+    "/home/a186r/dev/solc/contract-gits/Non-Fungible/node_modules/@0xcert/ethereum-erc721/src/contracts/utils/erc165.sol": {
+      "lastModificationDate": 1626589090214,
+      "contentHash": "4988f146872c249fc4b07790db0ffbaf",
+      "sourceName": "@0xcert/ethereum-erc721/src/contracts/utils/erc165.sol",
+      "solcConfig": {
+        "version": "0.5.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.5.6"
+      ],
+      "artifacts": [
+        "ERC165"
+      ]
+    }
+  }
+}
