@@ -11,15 +11,35 @@ const ALCHEMY_API_KEY = "8cpz4GUsIE7yt_-KR_X7XreAbrdX4dVn";
 const ROPSTEN_PRIVATE_KEY = "26ac8cc1c2455de82e56d1373ac7490911665ab1e21c539f0c47f80161885afe";
 
 module.exports = {
-  solidity: "0.8.0",
-  networks: {
-    ropsten: {
-      url: `https://eth-ropsten.alchemyapi.io/v2/${ALCHEMY_API_KEY}`,
-      accounts: [`0x${ROPSTEN_PRIVATE_KEY}`]
-    },
-    arbitrum: {
-      url: `https://eth-kovan.alchemyapi.io/v2/${ALCHEMY_API_KEY}`,
-      accounts: [`0x${ROPSTEN_PRIVATE_KEY}`]
-    }
-  }
+	solidity: {
+		version: "0.8.0",
+		settings: {
+		optimizer: {
+			enabled: true,
+			runs: 200
+		}
+		}
+	},
+	defaultNetwork: "ropsten",
+	networks: {
+		hardhat: {
+		},
+		ropsten: {
+			url: `https://eth-ropsten.alchemyapi.io/v2/${ALCHEMY_API_KEY}`,
+			accounts: [`0x${ROPSTEN_PRIVATE_KEY}`]
+		},
+		arbitrum: {
+			url: `https://eth-kovan.alchemyapi.io/v2/${ALCHEMY_API_KEY}`,
+			accounts: [`0x${ROPSTEN_PRIVATE_KEY}`]
+		}
+	},
+	paths: {
+		sources: "./contracts",
+		tests: "./test",
+		cache: "./cache",
+		artifacts: "./artifacts"
+	},
+	mocha: {
+		timeout: 20000
+	}
 };

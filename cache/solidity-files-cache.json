@@ -2,14 +2,14 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/home/a186r/dev/resume/contract-gits/contracts/CloneFactory/CloneFactory.sol": {
-      "lastModificationDate": 1626679765649,
+      "lastModificationDate": 1626680566881,
       "contentHash": "e9bca1f61b3793d5a27495f7369df3aa",
       "sourceName": "contracts/CloneFactory/CloneFactory.sol",
       "solcConfig": {
         "version": "0.8.0",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -43,7 +43,7 @@
         "version": "0.8.0",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -81,7 +81,7 @@
         "version": "0.8.0",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -115,7 +115,7 @@
         "version": "0.8.0",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -284,14 +284,14 @@
       ]
     },
     "/home/a186r/dev/resume/contract-gits/contracts/NonFungible/BitcoinNFT.sol": {
-      "lastModificationDate": 1626684669038,
-      "contentHash": "ec9b5d01953c4e8744ade2ddaa3773c9",
+      "lastModificationDate": 1626684681500,
+      "contentHash": "8014bf8db4f9765fc8a5daf3760c2d80",
       "sourceName": "contracts/NonFungible/BitcoinNFT.sol",
       "solcConfig": {
         "version": "0.8.0",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -328,7 +328,7 @@
         "version": "0.8.0",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -365,7 +365,7 @@
         "version": "0.8.0",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -404,7 +404,7 @@
         "version": "0.8.0",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -438,7 +438,7 @@
         "version": "0.8.0",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -472,7 +472,7 @@
         "version": "0.8.0",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -506,7 +506,7 @@
         "version": "0.8.0",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -542,7 +542,7 @@
         "version": "0.8.0",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -576,7 +576,7 @@
         "version": "0.8.0",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
