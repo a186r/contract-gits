@@ -1,5 +1,4 @@
 const {ethers} = require("hardhat");
-// const {ethers} = require("ethers");
 
 async function main() {
     const BitcoinNFTInstance = await ethers.getContractFactory("BitcoinNFT");
