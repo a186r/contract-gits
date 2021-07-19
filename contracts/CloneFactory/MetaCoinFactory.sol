@@ -5,7 +5,7 @@ import "./CloneFactory.sol";
 import "@0xcert/ethereum-erc721/src/contracts/ownership/ownable.sol";
 import "./MetaCoin.sol";
 
-contract MetaCoinFactory is CloneFactory, Ownable {
+contract MetaCoinFactory is CloneFactory, Ownable {    
     address public libraryAddress;
     address private metaCoinOwner;
 

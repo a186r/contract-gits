@@ -15,7 +15,7 @@ contract MetaCoin {
         return true;
     }
 
-    function BalancesOf(address addr) public view returns(uint) {
+    function balancesOf(address addr) public view returns(uint) {
         return balances[addr];
     }
 }

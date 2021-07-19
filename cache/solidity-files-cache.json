@@ -36,8 +36,8 @@
       ]
     },
     "/home/a186r/dev/resume/contract-gits/contracts/CloneFactory/MetaCoinFactory.sol": {
-      "lastModificationDate": 1626683204170,
-      "contentHash": "f0bd767bc5764a60a013fe14785fe4ae",
+      "lastModificationDate": 1626688860388,
+      "contentHash": "ee9dcfdadac779dbe7b7b5e4e0cd7c98",
       "sourceName": "contracts/CloneFactory/MetaCoinFactory.sol",
       "solcConfig": {
         "version": "0.8.0",
@@ -108,8 +108,8 @@
       ]
     },
     "/home/a186r/dev/resume/contract-gits/contracts/CloneFactory/MetaCoin.sol": {
-      "lastModificationDate": 1626683614698,
-      "contentHash": "8b09d3f5881e1fe5446113d209b889cd",
+      "lastModificationDate": 1626688975927,
+      "contentHash": "ed9af9812d33038791ffb32502e60fb7",
       "sourceName": "contracts/CloneFactory/MetaCoin.sol",
       "solcConfig": {
         "version": "0.8.0",
