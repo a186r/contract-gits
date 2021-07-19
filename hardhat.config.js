@@ -1,5 +1,13 @@
 require("@nomiclabs/hardhat-waffle");
 
+task("accounts", "Prints the list of accounts", async () => {
+	const accounts = await ethers.getSigners();
+  
+	for (const account of accounts) {
+	  console.log(account.address);
+	}
+});
+
 // Go to https://www.alchemyapi.io, sign up, create
 // a new App in its dashboard, and replace "KEY" with its key
 const ALCHEMY_API_KEY = "8cpz4GUsIE7yt_-KR_X7XreAbrdX4dVn";

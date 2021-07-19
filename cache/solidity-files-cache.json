@@ -1,8 +1,8 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/home/a186r/dev/resume/contract-gits/contracts/CloneFactory/CloneFactory.sol": {
-      "lastModificationDate": 1626680566881,
+    "/home/a186r/dev/solc/contract-gits/contracts/CloneFactory/CloneFactory.sol": {
+      "lastModificationDate": 1626699636327,
       "contentHash": "e9bca1f61b3793d5a27495f7369df3aa",
       "sourceName": "contracts/CloneFactory/CloneFactory.sol",
       "solcConfig": {
@@ -35,8 +35,8 @@
         "CloneFactory"
       ]
     },
-    "/home/a186r/dev/resume/contract-gits/contracts/CloneFactory/MetaCoinFactory.sol": {
-      "lastModificationDate": 1626688860388,
+    "/home/a186r/dev/solc/contract-gits/contracts/CloneFactory/MetaCoinFactory.sol": {
+      "lastModificationDate": 1626699712864,
       "contentHash": "ee9dcfdadac779dbe7b7b5e4e0cd7c98",
       "sourceName": "contracts/CloneFactory/MetaCoinFactory.sol",
       "solcConfig": {
@@ -73,8 +73,8 @@
         "MetaCoinFactory"
       ]
     },
-    "/home/a186r/dev/resume/contract-gits/node_modules/@0xcert/ethereum-erc721/src/contracts/ownership/ownable.sol": {
-      "lastModificationDate": 1626681145540,
+    "/home/a186r/dev/solc/contract-gits/node_modules/@0xcert/ethereum-erc721/src/contracts/ownership/ownable.sol": {
+      "lastModificationDate": 1626699846398,
       "contentHash": "43e8a21ff619aeca9c5373c97ef836ce",
       "sourceName": "@0xcert/ethereum-erc721/src/contracts/ownership/ownable.sol",
       "solcConfig": {
@@ -107,8 +107,8 @@
         "Ownable"
       ]
     },
-    "/home/a186r/dev/resume/contract-gits/contracts/CloneFactory/MetaCoin.sol": {
-      "lastModificationDate": 1626688975927,
+    "/home/a186r/dev/solc/contract-gits/contracts/CloneFactory/MetaCoin.sol": {
+      "lastModificationDate": 1626699636327,
       "contentHash": "ed9af9812d33038791ffb32502e60fb7",
       "sourceName": "contracts/CloneFactory/MetaCoin.sol",
       "solcConfig": {
@@ -141,150 +141,8 @@
         "MetaCoin"
       ]
     },
-    "/home/a186r/dev/resume/contract-gits/node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol": {
-      "lastModificationDate": 1626681559577,
-      "contentHash": "acad756301f0fb200ecc66138e8cd5c5",
-      "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
-      "solcConfig": {
-        "version": "0.8.0",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./IERC20.sol",
-        "./extensions/IERC20Metadata.sol",
-        "../../utils/Context.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "ERC20"
-      ]
-    },
-    "/home/a186r/dev/resume/contract-gits/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
-      "lastModificationDate": 1626682893902,
-      "contentHash": "0eac3e1a83ee62326ca007811285b274",
-      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
-      "solcConfig": {
-        "version": "0.8.0",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "IERC20"
-      ]
-    },
-    "/home/a186r/dev/resume/contract-gits/node_modules/@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
-      "lastModificationDate": 1626681559641,
-      "contentHash": "aa1be06992a99bb7393b26a6af3c4dfb",
-      "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
-      "solcConfig": {
-        "version": "0.8.0",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../IERC20.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "IERC20Metadata"
-      ]
-    },
-    "/home/a186r/dev/resume/contract-gits/node_modules/@openzeppelin/contracts/utils/Context.sol": {
-      "lastModificationDate": 1626681559555,
-      "contentHash": "07f148e0d44b2ffc23b3ae6dd6e38cfb",
-      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
-      "solcConfig": {
-        "version": "0.8.0",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "Context"
-      ]
-    },
-    "/home/a186r/dev/resume/contract-gits/contracts/NonFungible/BitcoinNFT.sol": {
-      "lastModificationDate": 1626684681500,
+    "/home/a186r/dev/solc/contract-gits/contracts/NonFungible/BitcoinNFT.sol": {
+      "lastModificationDate": 1626699636327,
       "contentHash": "8014bf8db4f9765fc8a5daf3760c2d80",
       "sourceName": "contracts/NonFungible/BitcoinNFT.sol",
       "solcConfig": {
@@ -320,8 +178,8 @@
         "BitcoinNFT"
       ]
     },
-    "/home/a186r/dev/resume/contract-gits/node_modules/@0xcert/ethereum-erc721/src/contracts/tokens/nf-token-metadata.sol": {
-      "lastModificationDate": 1626677137601,
+    "/home/a186r/dev/solc/contract-gits/node_modules/@0xcert/ethereum-erc721/src/contracts/tokens/nf-token-metadata.sol": {
+      "lastModificationDate": 1626699846138,
       "contentHash": "f40fbda833b7db650ae5f450f56dc1ac",
       "sourceName": "@0xcert/ethereum-erc721/src/contracts/tokens/nf-token-metadata.sol",
       "solcConfig": {
@@ -357,8 +215,8 @@
         "NFTokenMetadata"
       ]
     },
-    "/home/a186r/dev/resume/contract-gits/node_modules/@0xcert/ethereum-erc721/src/contracts/tokens/nf-token.sol": {
-      "lastModificationDate": 1626677137716,
+    "/home/a186r/dev/solc/contract-gits/node_modules/@0xcert/ethereum-erc721/src/contracts/tokens/nf-token.sol": {
+      "lastModificationDate": 1626699846235,
       "contentHash": "5211b3a380f06a2ed4595eb3613a0736",
       "sourceName": "@0xcert/ethereum-erc721/src/contracts/tokens/nf-token.sol",
       "solcConfig": {
@@ -396,8 +254,8 @@
         "NFToken"
       ]
     },
-    "/home/a186r/dev/resume/contract-gits/node_modules/@0xcert/ethereum-erc721/src/contracts/tokens/erc721-metadata.sol": {
-      "lastModificationDate": 1626677137199,
+    "/home/a186r/dev/solc/contract-gits/node_modules/@0xcert/ethereum-erc721/src/contracts/tokens/erc721-metadata.sol": {
+      "lastModificationDate": 1626699845508,
       "contentHash": "4144f294fe6aadb8be3380e8c3beac2b",
       "sourceName": "@0xcert/ethereum-erc721/src/contracts/tokens/erc721-metadata.sol",
       "solcConfig": {
@@ -430,8 +288,8 @@
         "ERC721Metadata"
       ]
     },
-    "/home/a186r/dev/resume/contract-gits/node_modules/@0xcert/ethereum-erc721/src/contracts/tokens/erc721.sol": {
-      "lastModificationDate": 1626677137304,
+    "/home/a186r/dev/solc/contract-gits/node_modules/@0xcert/ethereum-erc721/src/contracts/tokens/erc721.sol": {
+      "lastModificationDate": 1626699845551,
       "contentHash": "31e9fcef77a5d978ea94863168eded40",
       "sourceName": "@0xcert/ethereum-erc721/src/contracts/tokens/erc721.sol",
       "solcConfig": {
@@ -464,8 +322,8 @@
         "ERC721"
       ]
     },
-    "/home/a186r/dev/resume/contract-gits/node_modules/@0xcert/ethereum-erc721/src/contracts/tokens/erc721-token-receiver.sol": {
-      "lastModificationDate": 1626677137250,
+    "/home/a186r/dev/solc/contract-gits/node_modules/@0xcert/ethereum-erc721/src/contracts/tokens/erc721-token-receiver.sol": {
+      "lastModificationDate": 1626699845541,
       "contentHash": "10689450cf3c82790845ecccf4b25b3a",
       "sourceName": "@0xcert/ethereum-erc721/src/contracts/tokens/erc721-token-receiver.sol",
       "solcConfig": {
@@ -498,8 +356,8 @@
         "ERC721TokenReceiver"
       ]
     },
-    "/home/a186r/dev/resume/contract-gits/node_modules/@0xcert/ethereum-erc721/src/contracts/utils/supports-interface.sol": {
-      "lastModificationDate": 1626677137899,
+    "/home/a186r/dev/solc/contract-gits/node_modules/@0xcert/ethereum-erc721/src/contracts/utils/supports-interface.sol": {
+      "lastModificationDate": 1626699846415,
       "contentHash": "902190c5fc5cfc0f9d62a43eddedf56e",
       "sourceName": "@0xcert/ethereum-erc721/src/contracts/utils/supports-interface.sol",
       "solcConfig": {
@@ -534,8 +392,8 @@
         "SupportsInterface"
       ]
     },
-    "/home/a186r/dev/resume/contract-gits/node_modules/@0xcert/ethereum-erc721/src/contracts/utils/address-utils.sol": {
-      "lastModificationDate": 1626677136856,
+    "/home/a186r/dev/solc/contract-gits/node_modules/@0xcert/ethereum-erc721/src/contracts/utils/address-utils.sol": {
+      "lastModificationDate": 1626699845338,
       "contentHash": "67d447ec0a2f3c24115ca34812418c52",
       "sourceName": "@0xcert/ethereum-erc721/src/contracts/utils/address-utils.sol",
       "solcConfig": {
@@ -568,8 +426,8 @@
         "AddressUtils"
       ]
     },
-    "/home/a186r/dev/resume/contract-gits/node_modules/@0xcert/ethereum-erc721/src/contracts/utils/erc165.sol": {
-      "lastModificationDate": 1626677136902,
+    "/home/a186r/dev/solc/contract-gits/node_modules/@0xcert/ethereum-erc721/src/contracts/utils/erc165.sol": {
+      "lastModificationDate": 1626699845345,
       "contentHash": "90ee6386a9ad53696d028817e006717b",
       "sourceName": "@0xcert/ethereum-erc721/src/contracts/utils/erc165.sol",
       "solcConfig": {
