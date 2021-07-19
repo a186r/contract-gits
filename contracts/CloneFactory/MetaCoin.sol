@@ -7,4 +7,8 @@ contract MetaCoin is ERC20{
     constructor (uint256 initialSupply) ERC20 ("MetaCoin", "MTC") {
         _mint(msg.sender, initialSupply);
     }
+
+    function initialize(address metaCoinOwner, uint256 initialBalance) external {
+        _mint(metaCoinOwner, initialBalance);
+    }
 }
