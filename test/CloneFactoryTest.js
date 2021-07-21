@@ -15,7 +15,7 @@ describe("Clone Factory", function() {
         const MetaCoinFactoryInstance = await ethers.getContractFactory("MetaCoinFactory");
         const metaCoinFactory = await MetaCoinFactoryInstance.deploy(metaCoin.address);
 
-        await metaCoinFactory.deployed();
+        // await metaCoinFactory.deployed();
 
         // 调用createMetaCoin方法，创建newMetaCoin合约
         const newMetaCoin = await metaCoinFactory.createMetaCoin(owner, 100);

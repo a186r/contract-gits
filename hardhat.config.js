@@ -28,7 +28,7 @@ module.exports = {
 		}
 		}
 	},
-	defaultNetwork: "ropsten",
+	defaultNetwork: "hardhat",
 	networks: {
 		hardhat: {
 		},
