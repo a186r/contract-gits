@@ -461,7 +461,7 @@
       ]
     },
     "/home/a186r/dev/resume/contract-gits/contracts/ProxyEIP1167/Pair.sol": {
-      "lastModificationDate": 1626933125999,
+      "lastModificationDate": 1626936405534,
       "contentHash": "80d4c9bfd7c30e557a32e646e69cf4b3",
       "sourceName": "contracts/ProxyEIP1167/Pair.sol",
       "solcConfig": {
@@ -637,8 +637,8 @@
       ]
     },
     "/home/a186r/dev/resume/contract-gits/contracts/ProxyEIP1167/PairFactory.sol": {
-      "lastModificationDate": 1626933328912,
-      "contentHash": "aca11642a4f5ff3f1edbc097fc80364f",
+      "lastModificationDate": 1626940681433,
+      "contentHash": "7c4fbbed45ae000e90f3a2cae957a9c1",
       "sourceName": "contracts/ProxyEIP1167/PairFactory.sol",
       "solcConfig": {
         "version": "0.8.0",

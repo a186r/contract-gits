@@ -22,6 +22,6 @@ contract PairFactory is Ownable {
     }
 
     function createPair(bytes32 salt) external payable {
-        master.cloneDeterministic(salt);
+        emit NewPair(master.cloneDeterministic(salt));
     }
 }

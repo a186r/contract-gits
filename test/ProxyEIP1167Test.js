@@ -19,6 +19,7 @@ const getGas = async (tx) => {
 
 describe("Proxy EIP1167", function() {
     it("部署主pair合约", async function () {
+        // pairMaster就是母合约
         pairMaster = await (await ethers.getContractFactory("Pair")).deploy();
         // 单独部署pair合约花费的gas费
         pairStandaloneGas = await getGas(await pairMaster.deployTransaction)
@@ -65,7 +66,7 @@ describe("Proxy EIP1167", function() {
         expect(tokens[1]).to.equal(OGN_ADDRESS)
     });
 
-    it("节省了十倍gas？大概6倍左右", async function() {
+    it("节省了10倍gas？大概6倍左右", async function() {
         expect(Number(pairStandaloneGas)).to.be.greaterThan(Number(pairProxyGas)*6)
     });
 })
