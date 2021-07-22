@@ -37,7 +37,7 @@ describe("Proxy EIP1167", function() {
         const pairAddress = await pairFactory.getPairAddress(salts[0]);
         expect(pairAddress).to.exist;
 
-        // 使用同样的盐创建出来的合约地址是一样的
+        // 计算creatPair消耗的gas
         const tx = await pairFactory.createPair(salts[0]);
         await tx.wait();
         // clone pair花费的gas费
@@ -50,7 +50,7 @@ describe("Proxy EIP1167", function() {
                 'function initialize(address _tokenA, address _tokenB) public',
                 'function getPair() external view returns (address[] memory)',
             ],
-            addr1  //signerOrProvider
+            addr2  //signerOrProvider,无论用什么地址签名交易，最后部署完的合约地址都是一样的
         );
         // 校验地址是否一样
         expect(pair1.address).to.equal(pairAddress);
