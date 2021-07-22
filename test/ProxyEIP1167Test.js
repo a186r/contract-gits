@@ -20,14 +20,52 @@ const getGas = async (tx) => {
 describe("Proxy EIP1167", function() {
     it("部署主pair合约", async function () {
         pairMaster = await (await ethers.getContractFactory("Pair")).deploy();
-
+        // 单独部署pair合约花费的gas费
         pairStandaloneGas = await getGas(await pairMaster.deployTransaction)
-        // expect(pairMaster.address).to.exist
-        console.log(pairStandaloneGas);
+        expect(pairMaster.address).to.exist
     });
 
-    it("Should deploy PairFactory contract", async function () {
+    it("部署PairFactory合约", async function () {
         pairFactory = await (await ethers.getContractFactory("PairFactory")).deploy(pairMaster.address);
         expect(pairFactory.address).to.exist;
-      });
+    });
+
+    it("部署一个pair合约的克隆合约并允许自定义pair信息的初始化", async function() {
+        const [owner, addr1, addr2] = await ethers.getSigners();
+
+        // 调用pairFactory合约的getPairAddress方法预先计算合约地址
+        const pairAddress = await pairFactory.getPairAddress(salts[0]);
+        expect(pairAddress).to.exist;
+
+        // 使用同样的盐创建出来的合约地址是一样的
+        const tx = await pairFactory.createPair(salts[0]);
+        await tx.wait();
+        // clone pair花费的gas费
+        pairProxyGas = await getGas(tx)
+
+        // new ethers.Contract( address , abi , signerOrProvider )
+        const pair1 = new ethers.Contract(
+            pairAddress, // address
+            [  // abi
+                'function initialize(address _tokenA, address _tokenB) public',
+                'function getPair() external view returns (address[] memory)',
+            ],
+            addr1  //signerOrProvider
+        );
+        // 校验地址是否一样
+        expect(pair1.address).to.equal(pairAddress);
+
+        let initTx = await pair1.initialize(WETH_ADDRESS, OGN_ADDRESS);
+        await initTx.wait()
+
+        // await expect(pair1.initialize(WETH_ADDRESS, OGN_ADDRESS)).to.be.revertedWith('Initializable: contract is already initialized');
+
+        let tokens = await pair1.getPair()
+        expect(tokens[0]).to.equal(WETH_ADDRESS)
+        expect(tokens[1]).to.equal(OGN_ADDRESS)
+    });
+
+    it("节省了十倍gas？大概6倍左右", async function() {
+        expect(Number(pairStandaloneGas)).to.be.greaterThan(Number(pairProxyGas)*6)
+    });
 })
