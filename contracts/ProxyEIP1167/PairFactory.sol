@@ -12,6 +12,7 @@ contract PairFactory is Ownable {
 
     using Clones for address;
 
+    // _master就是母合约
     constructor(address _master) {
         master = _master;
     }

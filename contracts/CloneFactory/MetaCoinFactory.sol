@@ -15,6 +15,7 @@ contract MetaCoinFactory is CloneFactory, Ownable {
         libraryAddress = _libraryAddress;
     }
 
+    // _libraryAddress 就是母合约
     function setLibraryAddress(address _libraryAddress) public onlyOwner {
         libraryAddress = _libraryAddress;
     }
