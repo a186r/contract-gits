@@ -1,4 +1,43 @@
 .exit
+(await params.GetUint256Param("0x0001")).toNumber()
+(await params.GetUint256Param(ethers.utils.formatBytes32String("0x0001"))).toNumber()
+import {ethers} = require("hardhat")
+(await params.GetUint256Param(ethers.utils.formatBytes32ByString("0x0001"))).toNumber();
+(await params.GetUint256Param("0x0001")).toNumber();
+const params = await Params.attach("0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0")
+const Params = await ethers.getContractFactory("Params")
+.exit
+(await params.GetUint256Param('0x0001')).toNumber();
+(await params.GetUint256Param('0x0001)).toNumber();
+const params = await Params.attach("0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0")
+const Params = await ethers.getContractFactory("Params")
+.exit
+(await params.GetUint256Param("hello")).toNumber();
+const params = await Params.attach('0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0');
+const Params = await ethers.getContractFactory('Params')
+.exit
+.quit
+quit
+exit.
+exit
+(await params.GetUint256Param("hello")).toNumber()
+(await params.GetUint256Param("hello")).toNumber();
+(await params.GetUint256Param("hello")).toString();
+(await params.GetUint256Param("hello1")).toString();
+(await params.GetUint256Param("hello1")).toString()
+(await params.GetUint256Param("hello1"))
+(await params.GetUint256Param("hello1")).toBB
+(await params.GetUint256Param("hello")).toBB
+BigNumber(await params.GetUint256Param("hello"))
+await params.GetUint256Param("hello")
+(await params.GetUint256Param("hello")).toString();
+(await params.GetUint256Param()).toString();
+(await params.GetUint256Param).toString();
+(await params.GetUint256Param)
+const params = await Params.attach('0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0')
+const box = await Box.attach('0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0')
+const Params = await ethers.getContractFactory('Params')
+.exit
 .help
 help
 ethers

@@ -1,0 +1,1239 @@
+{
+  "version": "3.2",
+  "log": [
+    {
+      "ParamsV2": {
+        "src": "contracts/UpgradeProxy/ParamsV2.sol:11",
+        "version": {
+          "withMetadata": "2a5e983530566d90ea1f8c163cb4657adfd30b5f724c832418e85785a3076fd2",
+          "withoutMetadata": "d2d3827ecce3995e67e307a8878bf656c227a93348d0af3df241d15dee8c8086",
+          "linkedWithoutMetadata": "d2d3827ecce3995e67e307a8878bf656c227a93348d0af3df241d15dee8c8086"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "SetUint256Param(bytes32,uint256)",
+          "GetUint256Param(bytes32)",
+          "increment(bytes32)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "contract": "ParamsV2",
+              "label": "uint256Params",
+              "type": "t_mapping(t_bytes32,t_uint256)",
+              "src": "contracts/UpgradeProxy/ParamsV2.sol:18"
+            }
+          ],
+          "types": {
+            "t_mapping(t_bytes32,t_uint256)": {
+              "label": "mapping(bytes32 => uint256)"
+            },
+            "t_bytes32": {
+              "label": "bytes32"
+            },
+            "t_uint256": {
+              "label": "uint256"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      }
+    },
+    {
+      "Params": {
+        "src": "contracts/UpgradeProxy/Params.sol:11",
+        "version": {
+          "withMetadata": "630c396b9d10069fced441bc40ab12e5df6d74ccc5693b00d6b2179d26fb2b1a",
+          "withoutMetadata": "21ad93d8bf902838ecfb11cc3e1cc77340fabd77fae4e3d5a0c0fc00a7f1eb6a",
+          "linkedWithoutMetadata": "21ad93d8bf902838ecfb11cc3e1cc77340fabd77fae4e3d5a0c0fc00a7f1eb6a"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "SetUint256Param(bytes32,uint256)",
+          "GetUint256Param(bytes32)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "contract": "Params",
+              "label": "uint256Params",
+              "type": "t_mapping(t_bytes32,t_uint256)",
+              "src": "contracts/UpgradeProxy/Params.sol:18"
+            }
+          ],
+          "types": {
+            "t_mapping(t_bytes32,t_uint256)": {
+              "label": "mapping(bytes32 => uint256)"
+            },
+            "t_bytes32": {
+              "label": "bytes32"
+            },
+            "t_uint256": {
+              "label": "uint256"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      }
+    },
+    {
+      "ParamsV2": {
+        "src": "contracts/UpgradeProxy/ParamsV2.sol:11",
+        "version": {
+          "withMetadata": "b4afc048afee49218b5939bac1fbb287028cccf744154d41d540741674975188",
+          "withoutMetadata": "2dce2f229bf7dbdd64932b8f775fefe8edfa3d3758fabfe02e75c42248825bcf",
+          "linkedWithoutMetadata": "2dce2f229bf7dbdd64932b8f775fefe8edfa3d3758fabfe02e75c42248825bcf"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "SetUint256Param(bytes32,uint256)",
+          "GetUint256Param(bytes32)",
+          "increment()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "contract": "ParamsV2",
+              "label": "uint256Params",
+              "type": "t_mapping(t_bytes32,t_uint256)",
+              "src": "contracts/UpgradeProxy/ParamsV2.sol:18"
+            }
+          ],
+          "types": {
+            "t_mapping(t_bytes32,t_uint256)": {
+              "label": "mapping(bytes32 => uint256)"
+            },
+            "t_bytes32": {
+              "label": "bytes32"
+            },
+            "t_uint256": {
+              "label": "uint256"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      }
+    },
+    {
+      "Params": {
+        "src": "contracts/UpgradeProxy/ParamsV2.sol:11",
+        "version": {
+          "withMetadata": "17d1f44c4cb0fae54d72323284776b0320d73fc76b0bfd0711bdae00bf61c4b7",
+          "withoutMetadata": "2dce2f229bf7dbdd64932b8f775fefe8edfa3d3758fabfe02e75c42248825bcf",
+          "linkedWithoutMetadata": "2dce2f229bf7dbdd64932b8f775fefe8edfa3d3758fabfe02e75c42248825bcf"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "SetUint256Param(bytes32,uint256)",
+          "GetUint256Param(bytes32)",
+          "increment()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "contract": "Params",
+              "label": "uint256Params",
+              "type": "t_mapping(t_bytes32,t_uint256)",
+              "src": "contracts/UpgradeProxy/ParamsV2.sol:18"
+            }
+          ],
+          "types": {
+            "t_mapping(t_bytes32,t_uint256)": {
+              "label": "mapping(bytes32 => uint256)"
+            },
+            "t_bytes32": {
+              "label": "bytes32"
+            },
+            "t_uint256": {
+              "label": "uint256"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      }
+    },
+    {
+      "Params": {
+        "src": "contracts/UpgradeProxy/Params.sol:11",
+        "version": {
+          "withMetadata": "6e60f345bcad96ec9b3d10d655f822321da5d81c860f5f48c3724b1551fced76",
+          "withoutMetadata": "177c64e3a6f1025d258847aca65ccfb7a9b6609b5dba009162903ab04851c2d7",
+          "linkedWithoutMetadata": "177c64e3a6f1025d258847aca65ccfb7a9b6609b5dba009162903ab04851c2d7"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "SetUint256Param(string,uint256)",
+          "GetUint256Param(string)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "contract": "Params",
+              "label": "uint256Params",
+              "type": "t_mapping(t_string_memory_ptr,t_uint256)",
+              "src": "contracts/UpgradeProxy/Params.sol:18"
+            }
+          ],
+          "types": {
+            "t_mapping(t_string_memory_ptr,t_uint256)": {
+              "label": "mapping(string => uint256)"
+            },
+            "t_string_storage": {
+              "label": "string"
+            },
+            "t_uint256": {
+              "label": "uint256"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      }
+    },
+    {
+      "OwnableUpgradeable": {
+        "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:20",
+        "inherit": [
+          "ContextUpgradeable",
+          "Initializable"
+        ],
+        "libraries": [],
+        "methods": [
+          "owner()",
+          "renounceOwnership()",
+          "transferOwnership(address)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "contract": "OwnableUpgradeable",
+              "label": "_owner",
+              "type": "t_address",
+              "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:21"
+            },
+            {
+              "contract": "OwnableUpgradeable",
+              "label": "__gap",
+              "type": "t_array(t_uint256)49_storage",
+              "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:77"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address"
+            },
+            "t_array(t_uint256)49_storage": {
+              "label": "uint256[49]"
+            },
+            "t_uint256": {
+              "label": "uint256"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      },
+      "Initializable": {
+        "src": "@openzeppelin/contracts/proxy/utils/Initializable.sol:17",
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts/proxy/utils/Initializable.sol:21"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts/proxy/utils/Initializable.sol:26"
+            }
+          ],
+          "types": {
+            "t_bool": {
+              "label": "bool"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      },
+      "ContextUpgradeable": {
+        "src": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:16",
+        "inherit": [
+          "Initializable"
+        ],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "contract": "ContextUpgradeable",
+              "label": "__gap",
+              "type": "t_array(t_uint256)50_storage",
+              "src": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:30"
+            }
+          ],
+          "types": {
+            "t_array(t_uint256)50_storage": {
+              "label": "uint256[50]"
+            },
+            "t_uint256": {
+              "label": "uint256"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      },
+      "Ownable": {
+        "src": "@openzeppelin/contracts/access/Ownable.sol:19",
+        "inherit": [
+          "Context"
+        ],
+        "libraries": [],
+        "methods": [
+          "owner()",
+          "renounceOwnership()",
+          "transferOwnership(address)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "Ownable",
+            "src": "@openzeppelin/contracts/access/Ownable.sol:27"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "contract": "Ownable",
+              "label": "_owner",
+              "type": "t_address",
+              "src": "@openzeppelin/contracts/access/Ownable.sol:20"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      },
+      "Clones": {
+        "src": "@openzeppelin/contracts/proxy/Clones.sol:18",
+        "version": {
+          "withMetadata": "4ae94e9f02a485c2eb526394266d4e7123bf5592a1015f7c9076aca2fbd3b5c3",
+          "withoutMetadata": "08d24783a787f8a51dea0c166bb6f91a4f0865e02d03d749f102d332e6ead0ff",
+          "linkedWithoutMetadata": "08d24783a787f8a51dea0c166bb6f91a4f0865e02d03d749f102d332e6ead0ff"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.1"
+        }
+      },
+      "ERC1967Proxy": {
+        "src": "@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.sol:14",
+        "version": {
+          "withMetadata": "46aa78e15fe3a50ec8b4ad897a82921d4149061bd8f186c8ddc15bb38f6638ce",
+          "withoutMetadata": "46aa78e15fe3a50ec8b4ad897a82921d4149061bd8f186c8ddc15bb38f6638ce",
+          "linkedWithoutMetadata": "46aa78e15fe3a50ec8b4ad897a82921d4149061bd8f186c8ddc15bb38f6638ce"
+        },
+        "inherit": [
+          "ERC1967Upgrade",
+          "Proxy"
+        ],
+        "libraries": [],
+        "methods": [
+          "(address,bytes)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "ERC1967Proxy",
+            "src": "@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.sol:21"
+          }
+        ],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.1"
+        }
+      },
+      "ERC1967Upgrade": {
+        "src": "@openzeppelin/contracts/proxy/ERC1967/ERC1967Upgrade.sol:17",
+        "inherit": [],
+        "libraries": [
+          "StorageSlot",
+          "Address"
+        ],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.1"
+        }
+      },
+      "Proxy": {
+        "src": "@openzeppelin/contracts/proxy/Proxy.sol:15",
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "()",
+          "()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.1"
+        }
+      },
+      "IBeacon": {
+        "src": "@openzeppelin/contracts/proxy/beacon/IBeacon.sol:8",
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "implementation()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.1"
+        }
+      },
+      "TransparentUpgradeableProxy": {
+        "src": "@openzeppelin/contracts/proxy/transparent/TransparentUpgradeableProxy.sol:28",
+        "version": {
+          "withMetadata": "ed21ee598945c148b3e94b011fdee0ffe7c08a934eeaa2d78d19226553526c64",
+          "withoutMetadata": "ed21ee598945c148b3e94b011fdee0ffe7c08a934eeaa2d78d19226553526c64",
+          "linkedWithoutMetadata": "ed21ee598945c148b3e94b011fdee0ffe7c08a934eeaa2d78d19226553526c64"
+        },
+        "inherit": [
+          "ERC1967Proxy",
+          "ERC1967Upgrade",
+          "Proxy"
+        ],
+        "libraries": [],
+        "methods": [
+          "(address,address,bytes)",
+          "admin()",
+          "implementation()",
+          "changeAdmin(address)",
+          "upgradeTo(address)",
+          "upgradeToAndCall(address,bytes)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "TransparentUpgradeableProxy",
+            "src": "@openzeppelin/contracts/proxy/transparent/TransparentUpgradeableProxy.sol:33"
+          }
+        ],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.1"
+        }
+      },
+      "Address": {
+        "src": "@openzeppelin/contracts/utils/Address.sol:8",
+        "version": {
+          "withMetadata": "c132b0b60fbbece78c1c2e398fd9ec7a13403aab7a0feff9866c413c03c173d4",
+          "withoutMetadata": "08d24783a787f8a51dea0c166bb6f91a4f0865e02d03d749f102d332e6ead0ff",
+          "linkedWithoutMetadata": "08d24783a787f8a51dea0c166bb6f91a4f0865e02d03d749f102d332e6ead0ff"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "delegatecall",
+            "src": "@openzeppelin/contracts/utils/Address.sol:185"
+          }
+        ],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.1"
+        }
+      },
+      "Context": {
+        "src": "@openzeppelin/contracts/utils/Context.sol:15",
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.1"
+        }
+      },
+      "StorageSlot": {
+        "src": "@openzeppelin/contracts/utils/StorageSlot.sol:31",
+        "version": {
+          "withMetadata": "67043ca199238b571fe41b2afcdfc1902b6e0170b97676a37de1d89b17b45f48",
+          "withoutMetadata": "08d24783a787f8a51dea0c166bb6f91a4f0865e02d03d749f102d332e6ead0ff",
+          "linkedWithoutMetadata": "08d24783a787f8a51dea0c166bb6f91a4f0865e02d03d749f102d332e6ead0ff"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.1"
+        }
+      },
+      "CloneFactory": {
+        "src": "contracts/CloneFactory/CloneFactory.sol:27",
+        "version": {
+          "withMetadata": "4d23990fde622603fa98fd5d92e035ec29a4cf49532728bc6d00fab0e3e45b42",
+          "withoutMetadata": "ac0db523ddc3e330f735df7b3b0b24460531c71290a891170e840f8f67d5ff6b",
+          "linkedWithoutMetadata": "ac0db523ddc3e330f735df7b3b0b24460531c71290a891170e840f8f67d5ff6b"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.1"
+        }
+      },
+      "MetaCoin": {
+        "src": "contracts/CloneFactory/MetaCoin.sol:4",
+        "version": {
+          "withMetadata": "2f38c569b53d8dc295bd63859ca9a34230be436ad6ff01b5bd0778563b787ad3",
+          "withoutMetadata": "cb02209575d2f4db849304f3147c1ea206b977dd019d26a47a453af98342f58d",
+          "linkedWithoutMetadata": "cb02209575d2f4db849304f3147c1ea206b977dd019d26a47a453af98342f58d"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "initialize(address,uint256)",
+          "sendCoin(address,uint256)",
+          "balancesOf(address)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "contract": "MetaCoin",
+              "label": "balances",
+              "type": "t_mapping(t_address,t_uint256)",
+              "src": "contracts/CloneFactory/MetaCoin.sol:5"
+            }
+          ],
+          "types": {
+            "t_mapping(t_address,t_uint256)": {
+              "label": "mapping(address => uint256)"
+            },
+            "t_address": {
+              "label": "address"
+            },
+            "t_uint256": {
+              "label": "uint256"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      },
+      "Pair": {
+        "src": "contracts/ProxyEIP1167/Pair.sol:8",
+        "version": {
+          "withMetadata": "b09dd1f25c756efeed5e1984e1a2d6a20262f6fd2b8c324100ddea5558886cd8",
+          "withoutMetadata": "c7d3ccdf88be644b289496af4eab251f36e7d200f19735355e790d867e740a7e",
+          "linkedWithoutMetadata": "c7d3ccdf88be644b289496af4eab251f36e7d200f19735355e790d867e740a7e"
+        },
+        "inherit": [
+          "Initializable",
+          "Ownable",
+          "Context"
+        ],
+        "libraries": [],
+        "methods": [
+          "()",
+          "initialize(address,address)",
+          "getPair()"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "Pair",
+            "src": "contracts/ProxyEIP1167/Pair.sol:12"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "contract": "Pair",
+              "label": "deployer",
+              "type": "t_address",
+              "src": "contracts/ProxyEIP1167/Pair.sol:9"
+            },
+            {
+              "contract": "Pair",
+              "label": "tokens",
+              "type": "t_array(t_address)dyn_storage",
+              "src": "contracts/ProxyEIP1167/Pair.sol:10"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address"
+            },
+            "t_array(t_address)dyn_storage": {
+              "label": "address[]"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      },
+      "PairFactory": {
+        "src": "contracts/ProxyEIP1167/PairFactory.sol:8",
+        "version": {
+          "withMetadata": "13ce0c55d570974d67beb681a58170a184180b62714b398e820657a60bb94a31",
+          "withoutMetadata": "37278a2153d503bed4f728bdb9aea4622314cef59b8423f6e2ae24107889658a",
+          "linkedWithoutMetadata": "37278a2153d503bed4f728bdb9aea4622314cef59b8423f6e2ae24107889658a"
+        },
+        "inherit": [
+          "Ownable",
+          "Context"
+        ],
+        "libraries": [
+          "Clones"
+        ],
+        "methods": [
+          "(address)",
+          "getPairAddress(bytes32)",
+          "createPair(bytes32)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "PairFactory",
+            "src": "contracts/ProxyEIP1167/PairFactory.sol:16"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "contract": "PairFactory",
+              "label": "master",
+              "type": "t_address",
+              "src": "contracts/ProxyEIP1167/PairFactory.sol:9"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      },
+      "Params": {
+        "src": "contracts/UpgradeProxy/Params.sol:10",
+        "version": {
+          "withMetadata": "5a5f8784cb8b66260361ef238f69ef3dee471fa431ea27d3d6607c8ea93bdd49",
+          "withoutMetadata": "536601d423e25cc462d47a6ff3848a0072ed70cf02b26a66b8aeb82bac4735e3",
+          "linkedWithoutMetadata": "536601d423e25cc462d47a6ff3848a0072ed70cf02b26a66b8aeb82bac4735e3"
+        },
+        "inherit": [
+          "OwnableUpgradeable",
+          "ContextUpgradeable",
+          "Initializable"
+        ],
+        "libraries": [],
+        "methods": [
+          "initialize()",
+          "SetUint256Param(string,uint256)",
+          "GetUint256Param(string)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "contract": "Params",
+              "label": "uint256Params",
+              "type": "t_mapping(t_string_memory_ptr,t_uint256)",
+              "src": "contracts/UpgradeProxy/Params.sol:17"
+            }
+          ],
+          "types": {
+            "t_mapping(t_string_memory_ptr,t_uint256)": {
+              "label": "mapping(string => uint256)"
+            },
+            "t_string_storage": {
+              "label": "string"
+            },
+            "t_uint256": {
+              "label": "uint256"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      },
+      "ProxyAdmin": {
+        "src": "contracts/UpgradeProxy/ProxyAdmin.sol:11",
+        "version": {
+          "withMetadata": "37cf629fdb95bc16d8ce532fd870b42ab4700a62cd0910b5379562b841cb7fa1",
+          "withoutMetadata": "6db1ea8d9dae90e9cac4eae11b849ad15a96b112edd7698c9bd862edefb62fc9",
+          "linkedWithoutMetadata": "6db1ea8d9dae90e9cac4eae11b849ad15a96b112edd7698c9bd862edefb62fc9"
+        },
+        "inherit": [
+          "Ownable",
+          "Context"
+        ],
+        "libraries": [],
+        "methods": [
+          "getProxyImplementation(address)",
+          "getProxyAdmin(address)",
+          "changeProxyAdmin(address,address)",
+          "upgrade(address,address)",
+          "upgradeAndCall(address,address,bytes)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.1"
+        }
+      },
+      "console": {
+        "src": "hardhat/console.sol:4",
+        "version": {
+          "withMetadata": "4b02c7c4618a233d529627e6230f71daa785f734dd01e5338467cd7b2d43fbf0",
+          "withoutMetadata": "08d24783a787f8a51dea0c166bb6f91a4f0865e02d03d749f102d332e6ead0ff",
+          "linkedWithoutMetadata": "08d24783a787f8a51dea0c166bb6f91a4f0865e02d03d749f102d332e6ead0ff"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.1"
+        }
+      }
+    },
+    {
+      "Ownable": {
+        "src": "@0xcert/ethereum-erc721/src/contracts/ownership/ownable.sol:9",
+        "version": {
+          "withMetadata": "560261d91cdd1431fb9b87418e8bde82300ff76a490fd2d1ee3a017ec71cb28f",
+          "withoutMetadata": "5f8af455990332c9ce430cb9dcb7cbacf9bb8d3295f2d8a8c4440ad8e5a5d39c",
+          "linkedWithoutMetadata": "5f8af455990332c9ce430cb9dcb7cbacf9bb8d3295f2d8a8c4440ad8e5a5d39c"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "()",
+          "transferOwnership(address)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "Ownable",
+            "src": "@0xcert/ethereum-erc721/src/contracts/ownership/ownable.sol:36"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "contract": "Ownable",
+              "label": "owner",
+              "type": "t_address",
+              "src": "@0xcert/ethereum-erc721/src/contracts/ownership/ownable.sol:21"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      },
+      "ERC721Metadata": {
+        "src": "@0xcert/ethereum-erc721/src/contracts/tokens/erc721-metadata.sol:8",
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "name()",
+          "symbol()",
+          "tokenURI(uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.1"
+        }
+      },
+      "ERC721TokenReceiver": {
+        "src": "@0xcert/ethereum-erc721/src/contracts/tokens/erc721-token-receiver.sol:8",
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "onERC721Received(address,address,uint256,bytes)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.1"
+        }
+      },
+      "ERC721": {
+        "src": "@0xcert/ethereum-erc721/src/contracts/tokens/erc721.sol:8",
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "safeTransferFrom(address,address,uint256,bytes)",
+          "safeTransferFrom(address,address,uint256)",
+          "transferFrom(address,address,uint256)",
+          "approve(address,uint256)",
+          "setApprovalForAll(address,bool)",
+          "balanceOf(address)",
+          "ownerOf(uint256)",
+          "getApproved(uint256)",
+          "isApprovedForAll(address,address)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.1"
+        }
+      },
+      "NFTokenMetadata": {
+        "src": "@0xcert/ethereum-erc721/src/contracts/tokens/nf-token-metadata.sol:10",
+        "version": {
+          "withMetadata": "717c8e7ee82b77f43abef7e5a247c306657b4c61857a76fb45fced2019ee28f3",
+          "withoutMetadata": "0c91ec698dd14877e76f18fcfd2931660a1078e7cdd1a872b9faa64cc2ffbcb6",
+          "linkedWithoutMetadata": "0c91ec698dd14877e76f18fcfd2931660a1078e7cdd1a872b9faa64cc2ffbcb6"
+        },
+        "inherit": [
+          "ERC721Metadata",
+          "NFToken",
+          "SupportsInterface",
+          "ERC165",
+          "ERC721"
+        ],
+        "libraries": [],
+        "methods": [
+          "()",
+          "name()",
+          "symbol()",
+          "tokenURI(uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "NFTokenMetadata",
+            "src": "@0xcert/ethereum-erc721/src/contracts/tokens/nf-token-metadata.sol:34"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "contract": "NFTokenMetadata",
+              "label": "nftName",
+              "type": "t_string_storage",
+              "src": "@0xcert/ethereum-erc721/src/contracts/tokens/nf-token-metadata.sol:18"
+            },
+            {
+              "contract": "NFTokenMetadata",
+              "label": "nftSymbol",
+              "type": "t_string_storage",
+              "src": "@0xcert/ethereum-erc721/src/contracts/tokens/nf-token-metadata.sol:23"
+            },
+            {
+              "contract": "NFTokenMetadata",
+              "label": "idToUri",
+              "type": "t_mapping(t_uint256,t_string_storage)",
+              "src": "@0xcert/ethereum-erc721/src/contracts/tokens/nf-token-metadata.sol:28"
+            }
+          ],
+          "types": {
+            "t_string_storage": {
+              "label": "string"
+            },
+            "t_mapping(t_uint256,t_string_storage)": {
+              "label": "mapping(uint256 => string)"
+            },
+            "t_uint256": {
+              "label": "uint256"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      },
+      "NFToken": {
+        "src": "@0xcert/ethereum-erc721/src/contracts/tokens/nf-token.sol:12",
+        "version": {
+          "withMetadata": "892e3f36295c2beabf42fc070b0c577541ac70a794965d8bde3812a651e46eaf",
+          "withoutMetadata": "9b3b9545356d98f0aa0f07079c04f59d458129c7c421d604e1f507e9a9742925",
+          "linkedWithoutMetadata": "9b3b9545356d98f0aa0f07079c04f59d458129c7c421d604e1f507e9a9742925"
+        },
+        "inherit": [
+          "SupportsInterface",
+          "ERC165",
+          "ERC721"
+        ],
+        "libraries": [
+          "AddressUtils"
+        ],
+        "methods": [
+          "()",
+          "safeTransferFrom(address,address,uint256,bytes)",
+          "safeTransferFrom(address,address,uint256)",
+          "transferFrom(address,address,uint256)",
+          "approve(address,uint256)",
+          "setApprovalForAll(address,bool)",
+          "balanceOf(address)",
+          "ownerOf(uint256)",
+          "getApproved(uint256)",
+          "isApprovedForAll(address,address)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "NFToken",
+            "src": "@0xcert/ethereum-erc721/src/contracts/tokens/nf-token.sol:106"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "contract": "NFToken",
+              "label": "idToOwner",
+              "type": "t_mapping(t_uint256,t_address)",
+              "src": "@0xcert/ethereum-erc721/src/contracts/tokens/nf-token.sol:40"
+            },
+            {
+              "contract": "NFToken",
+              "label": "idToApproval",
+              "type": "t_mapping(t_uint256,t_address)",
+              "src": "@0xcert/ethereum-erc721/src/contracts/tokens/nf-token.sol:45"
+            },
+            {
+              "contract": "NFToken",
+              "label": "ownerToNFTokenCount",
+              "type": "t_mapping(t_address,t_uint256)",
+              "src": "@0xcert/ethereum-erc721/src/contracts/tokens/nf-token.sol:50"
+            },
+            {
+              "contract": "NFToken",
+              "label": "ownerToOperators",
+              "type": "t_mapping(t_address,t_mapping(t_address,t_bool))",
+              "src": "@0xcert/ethereum-erc721/src/contracts/tokens/nf-token.sol:55"
+            }
+          ],
+          "types": {
+            "t_mapping(t_uint256,t_address)": {
+              "label": "mapping(uint256 => address)"
+            },
+            "t_uint256": {
+              "label": "uint256"
+            },
+            "t_address": {
+              "label": "address"
+            },
+            "t_mapping(t_address,t_uint256)": {
+              "label": "mapping(address => uint256)"
+            },
+            "t_mapping(t_address,t_mapping(t_address,t_bool))": {
+              "label": "mapping(address => mapping(address => bool))"
+            },
+            "t_mapping(t_address,t_bool)": {
+              "label": "mapping(address => bool)"
+            },
+            "t_bool": {
+              "label": "bool"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      },
+      "AddressUtils": {
+        "src": "@0xcert/ethereum-erc721/src/contracts/utils/address-utils.sol:10",
+        "version": {
+          "withMetadata": "de7c12ba8d8f4a0e77adf10130d301cd0534f26fc3de7927d38554801f2df515",
+          "withoutMetadata": "08d24783a787f8a51dea0c166bb6f91a4f0865e02d03d749f102d332e6ead0ff",
+          "linkedWithoutMetadata": "08d24783a787f8a51dea0c166bb6f91a4f0865e02d03d749f102d332e6ead0ff"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.1"
+        }
+      },
+      "ERC165": {
+        "src": "@0xcert/ethereum-erc721/src/contracts/utils/erc165.sol:8",
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "supportsInterface(bytes4)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.1"
+        }
+      },
+      "SupportsInterface": {
+        "src": "@0xcert/ethereum-erc721/src/contracts/utils/supports-interface.sol:9",
+        "version": {
+          "withMetadata": "e589c949cd51fdc6c003c47e2aa3ecec0b0cabc365c7b457e3d634f9a65c2c3a",
+          "withoutMetadata": "32897c76de05192416697728f6eb298d85f9904043b54ade2b84658b649fd8ea",
+          "linkedWithoutMetadata": "32897c76de05192416697728f6eb298d85f9904043b54ade2b84658b649fd8ea"
+        },
+        "inherit": [
+          "ERC165"
+        ],
+        "libraries": [],
+        "methods": [
+          "()",
+          "supportsInterface(bytes4)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "SupportsInterface",
+            "src": "@0xcert/ethereum-erc721/src/contracts/utils/supports-interface.sol:21"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "contract": "SupportsInterface",
+              "label": "supportedInterfaces",
+              "type": "t_mapping(t_bytes4,t_bool)",
+              "src": "@0xcert/ethereum-erc721/src/contracts/utils/supports-interface.sol:16"
+            }
+          ],
+          "types": {
+            "t_mapping(t_bytes4,t_bool)": {
+              "label": "mapping(bytes4 => bool)"
+            },
+            "t_bytes4": {
+              "label": "bytes4"
+            },
+            "t_bool": {
+              "label": "bool"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      },
+      "CloneFactory": {
+        "src": "contracts/CloneFactory/CloneFactory.sol:27",
+        "version": {
+          "withMetadata": "790905e7337aecaf270c244a120ae72cd760470693e2fff5f793a32c0d12a84d",
+          "withoutMetadata": "ac0db523ddc3e330f735df7b3b0b24460531c71290a891170e840f8f67d5ff6b",
+          "linkedWithoutMetadata": "ac0db523ddc3e330f735df7b3b0b24460531c71290a891170e840f8f67d5ff6b"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.1"
+        }
+      },
+      "MetaCoin": {
+        "src": "contracts/CloneFactory/MetaCoin.sol:4",
+        "version": {
+          "withMetadata": "c4149b1881a58a1422d108baf52c5db079ad4b7e9cb902a3a61f3734220c216a",
+          "withoutMetadata": "cb02209575d2f4db849304f3147c1ea206b977dd019d26a47a453af98342f58d",
+          "linkedWithoutMetadata": "cb02209575d2f4db849304f3147c1ea206b977dd019d26a47a453af98342f58d"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "initialize(address,uint256)",
+          "sendCoin(address,uint256)",
+          "balancesOf(address)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "contract": "MetaCoin",
+              "label": "balances",
+              "type": "t_mapping(t_address,t_uint256)",
+              "src": "contracts/CloneFactory/MetaCoin.sol:5"
+            }
+          ],
+          "types": {
+            "t_mapping(t_address,t_uint256)": {
+              "label": "mapping(address => uint256)"
+            },
+            "t_address": {
+              "label": "address"
+            },
+            "t_uint256": {
+              "label": "uint256"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      },
+      "MetaCoinFactory": {
+        "src": "contracts/CloneFactory/MetaCoinFactory.sol:8",
+        "version": {
+          "withMetadata": "13e5e07d31eb99289b9d493f77cc481af20aa1e46f5f13a9129d1d8b8e3a50fb",
+          "withoutMetadata": "afb3f992e19a2625db3503e42d376dda337f0c5d42c2e0d89f23fcc4500b641e",
+          "linkedWithoutMetadata": "afb3f992e19a2625db3503e42d376dda337f0c5d42c2e0d89f23fcc4500b641e"
+        },
+        "inherit": [
+          "Ownable",
+          "CloneFactory"
+        ],
+        "libraries": [],
+        "methods": [
+          "(address)",
+          "setLibraryAddress(address)",
+          "createMetaCoin(address,uint256)",
+          "isCloned(address)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "MetaCoinFactory",
+            "src": "contracts/CloneFactory/MetaCoinFactory.sol:14"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "contract": "MetaCoinFactory",
+              "label": "libraryAddress",
+              "type": "t_address",
+              "src": "contracts/CloneFactory/MetaCoinFactory.sol:9"
+            },
+            {
+              "contract": "MetaCoinFactory",
+              "label": "metaCoinOwner",
+              "type": "t_address",
+              "src": "contracts/CloneFactory/MetaCoinFactory.sol:10"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      },
+      "BitcoinNFT": {
+        "src": "contracts/NonFungible/BitcoinNFT.sol:7",
+        "version": {
+          "withMetadata": "e4a13cce171c0c6726ac68aaabfda3cbfc81ec8b84fb1636a3fef59d0bd5d98e",
+          "withoutMetadata": "3450d5dc4396a2bb092c5218b2532c540c644265cabb389ae2a74b8238def99d",
+          "linkedWithoutMetadata": "3450d5dc4396a2bb092c5218b2532c540c644265cabb389ae2a74b8238def99d"
+        },
+        "inherit": [
+          "Ownable",
+          "NFTokenMetadata",
+          "ERC721Metadata",
+          "NFToken",
+          "SupportsInterface",
+          "ERC165",
+          "ERC721"
+        ],
+        "libraries": [],
+        "methods": [
+          "()",
+          "_mint(address,uint256,string)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "BitcoinNFT",
+            "src": "contracts/NonFungible/BitcoinNFT.sol:8"
+          }
+        ],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.1"
+        }
+      }
+    }
+  ]
+}

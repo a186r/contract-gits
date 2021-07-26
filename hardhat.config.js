@@ -1,4 +1,6 @@
 require("@nomiclabs/hardhat-waffle");
+require('@nomiclabs/hardhat-ethers');
+require('@openzeppelin/hardhat-upgrades');
 
 task("accounts", "Prints the list of accounts", async () => {
 	const accounts = await ethers.getSigners();
@@ -20,7 +22,14 @@ const ROPSTEN_PRIVATE_KEY = "26ac8cc1c2455de82e56d1373ac7490911665ab1e21c539f0c4
 
 module.exports = {
 	solidity: {
-		version: "0.8.0",
+		compilers:[
+			{
+				version: "0.8.2"
+			},
+			{
+				version: "0.8.0"
+			}
+		],
 		settings: {
 		optimizer: {
 			enabled: true,
