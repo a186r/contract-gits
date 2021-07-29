@@ -2,6 +2,67 @@
   "version": "3.2",
   "log": [
     {
+      "Greeter": {
+        "src": "contracts/ReactDapp/Greeter.sol:7",
+        "version": {
+          "withMetadata": "c782f060a926bdef6202e7745bbd90cd1aa22b74e7f938276ad5e7c38654420a",
+          "withoutMetadata": "c782f060a926bdef6202e7745bbd90cd1aa22b74e7f938276ad5e7c38654420a",
+          "linkedWithoutMetadata": "c782f060a926bdef6202e7745bbd90cd1aa22b74e7f938276ad5e7c38654420a"
+        },
+        "inherit": [],
+        "libraries": [
+          "console"
+        ],
+        "methods": [
+          "(string)",
+          "greet()",
+          "setGreeting(string)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "Greeter",
+            "src": "contracts/ReactDapp/Greeter.sol:10"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "contract": "Greeter",
+              "label": "greeting",
+              "type": "t_string_storage",
+              "src": "contracts/ReactDapp/Greeter.sol:8"
+            }
+          ],
+          "types": {
+            "t_string_storage": {
+              "label": "string"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      },
+      "console": {
+        "src": "hardhat/console.sol:4",
+        "version": {
+          "withMetadata": "4b02c7c4618a233d529627e6230f71daa785f734dd01e5338467cd7b2d43fbf0",
+          "withoutMetadata": "08d24783a787f8a51dea0c166bb6f91a4f0865e02d03d749f102d332e6ead0ff",
+          "linkedWithoutMetadata": "08d24783a787f8a51dea0c166bb6f91a4f0865e02d03d749f102d332e6ead0ff"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.1"
+        }
+      }
+    },
+    {
       "ParamsV2": {
         "src": "contracts/UpgradeProxy/ParamsV2.sol:11",
         "version": {
